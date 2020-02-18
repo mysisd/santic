@@ -19,4 +19,9 @@ class DefaultController extends Controller
 	    $swagger=\OpenApi\scan(dirname(dirname(__FILE__)));
 
     }
+
+    public function df(){
+        dump(1);
+        exit;
+    }
 }
